@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test"
+  annotations:
+    github.com/project-slug: johnfountainsomos/backstage-test
+    backstage.io/kubernetes-id: kubernetes-test
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
